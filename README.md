@@ -4,6 +4,8 @@
 
 Repository for Aaron Hyland's and Zen Carriere's midterm 
 
+We plan on making a musical desk where you drag components commonly found on a desk to the center, where they will play musical sounds.
+
 ## Installation
 There is no installation process for this repo. Simply pull down and start working!
 
