@@ -13,7 +13,7 @@
 
 		event.dataTransfer.setData("draggedImg",this.id);
 
-		// audio.src =`sounds/${this.dataset.trackref}`;
+		// audio.src =`sounds/${draggedImage}.mp3`;
 		// audio.pause();
 		// audio.currentTime = 0;
 	}
@@ -40,7 +40,7 @@
 
 		event.target.appendChild(document.querySelector(`#${droppedImage}`));
 
-		audio.src =`sounds/${this.dataset.trackref}`;
+		audio.src =`sounds/${droppedImage}.mp3`;
 		audio.load();
 
 		audio.play();
