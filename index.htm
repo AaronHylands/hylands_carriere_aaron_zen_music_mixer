@@ -2,15 +2,67 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Flex Practice</title>
+		<title>Aaron and Zen's Music Mixer</title>
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<h1 class="hidden">Flex Box Practice Layout</h1>
+		<h1 class="hidden">Music Mixer Web page</h1>
 		<div id="container">
 
+			<div class="itemHolder">
+			<h3 class="hidden">The item zone</h3>
+			<div class="dropZone itemDrop">
+				<img id="pencil" data-track="sounds/pencil.mp3" src="images/pencil.svg" alt="pencil icon" class="icon" draggable="true">
+			</div>
+			<div class="dropZone itemDrop">
+				<img id="eraser" data-track="sounds/eraser.mp3" src="images/eraser.svg" alt="eraser icon" class="icon" draggable="true">
+			</div>
+			<div class="dropZone itemDrop">
+				<img id="sharpener" data-track="sounds/sharpener.mp3" src="images/sharpener.svg" alt="sharpener icon" class="icon" draggable="true">
+			</div>
+			<div class="dropZone itemDrop">
+				<img id="stapler" data-track="sounds/stapler.mp3" src="images/stapler.svg" alt="stapler icon" class="icon" draggable="true">
+			</div>
+			<div class="dropZone itemDrop">
+				<img id="pen" data-track="sounds/pen.mp3" src="images/pen.svg" alt="pen icon" class="icon" draggable="true">
+			</div>
+			<!-- <img id="book" data-track="book.mp3" src="images/book.svg" alt="book icon" class="icon" draggable="true"> -->
+			</div>
+
+			<div class="musicSection">
+				<div class="chalkBoard">
+					<h3 class="hidden">chalkboard</h3>
+					<img id="chalkboard" src="images/chalkboard.svg" alt="Chalk Board">
+					<!-- <img id="chalkboardText" src="images/chalkBoardText." alt="Chalk text"> -->
+				</div>
+
+				<div class="desk">
+					<h3 class="hidden">The Drop Zones</h3>
+						<!-- <img id="paper" src="images/paper." alt="paper with instructions"> -->
+						<div class="button"></div>
+						<div class="dropZone deskDrop">
+						</div>
+						<div class="dropZone deskDrop">
+						</div>
+						<div class="dropZone deskDrop">
+						</div>
+						<div class="dropZone deskDrop">
+						</div>
+						<div class="dropZone deskDrop">
+						</div>
+					<!-- <div class="dropZone">
+					</div> -->
+				</div>
+			</div>
+
 		</div>
+		<audio src="sounds/pencil.mp3"></audio>
+		<audio src="sounds/eraser.mp3"></audio>
+		<audio src="sounds/sharpener.mp3"></audio>
+		<audio src="sounds/stapler.mp3"></audio>
+		<audio src="sounds/pen.mp3"></audio>
+
 		<script src="js/main.js"></script>
 	</body>
 </html>
