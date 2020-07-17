@@ -1,7 +1,8 @@
 (() => {
 
 		const deskInstruments = document.querySelectorAll(".icon"),
-		dropZones = document.querySelectorAll(".dropZone");
+		dropZones = document.querySelectorAll(".dropZone"),
+		audio = document.querySelector('audio'),;
 
 		// let imageNames = ["topLeft", "topRight", "bottomLeft", "bottomRight"];
 
@@ -11,8 +12,6 @@
 		console.log('started dragging an image: this one - ', event.target.id);
 
 		event.dataTransfer.setData("draggedImg",this.id);
-
-		// event.target.id.data-track.pause();
 	}
 
 	function allowDragOver(event){
@@ -36,8 +35,6 @@
 
 
 		event.target.appendChild(document.querySelector(`#${droppedImage}`));
-
-		event.target.data-track.play(); 
 	}
 
 	}
