@@ -2,7 +2,7 @@
 
 		const deskInstruments = document.querySelectorAll(".icon"),
 		dropZones = document.querySelectorAll(".dropZone"),
-		audio = document.querySelector('audio'),;
+		audio = document.querySelector('audio');
 
 		// let imageNames = ["topLeft", "topRight", "bottomLeft", "bottomRight"];
 
@@ -12,6 +12,10 @@
 		console.log('started dragging an image: this one - ', event.target.id);
 
 		event.dataTransfer.setData("draggedImg",this.id);
+
+		// audio.src =`sounds/${this.dataset.trackref}`;
+		// audio.pause();
+		// audio.currentTime = 0;
 	}
 
 	function allowDragOver(event){
@@ -35,6 +39,11 @@
 
 
 		event.target.appendChild(document.querySelector(`#${droppedImage}`));
+
+		audio.src =`sounds/${this.dataset.trackref}`;
+		audio.load();
+
+		audio.play();
 	}
 
 	}
