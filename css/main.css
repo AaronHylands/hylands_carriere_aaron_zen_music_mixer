@@ -8,6 +8,31 @@ body {
 	font-size: 16px;*/
 }
 
+h2{
+	font-family:"Fredericka the Great",Arial,sans-serif;
+	color:white;
+	margin-top:-400px;
+	font-size:50px;
+	width:50%;
+	text-align:center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+p{
+	font-family:"Fredericka the Great",Arial,sans-serif;
+	color:white;
+	font-size:27px;
+	width:45%;
+	text-align:center;
+	margin-top:25px;
+	line-height:35px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 #sharpener
 {
 	width:80%;
@@ -66,6 +91,7 @@ body {
 
 .desk{
 	background:url(../images/desk.svg);
+	background-repeat: no-repeat;
 	width:900px;
 	height:450px;
 	margin-left:100px;
@@ -79,17 +105,19 @@ body {
 	height:150px;
 	margin:5px;
 	border-style: solid;
-	border-width:5px;
-	border-color: grey;
+	border-width:8px;
+	border-color: lightgrey;
+	border-radius:10px;
 }
 
 .itemDrop{
 	width:445px;
 	height:186px;
 	border-style: solid;
-	border-width:5px;
+	border-width:8px;
 	border-bottom-width: 2.5px;
-	border-color: grey;
+	border-color: lightgrey;
+	border-radius:10px;
 }
 
 
