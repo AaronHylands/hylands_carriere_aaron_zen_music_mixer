@@ -61,7 +61,7 @@ p{
 	height:100%;
 }
 
-.hidden 
+.hidden
 {
 	display: none;
 }
@@ -122,27 +122,15 @@ p{
 
 .playButton{
 	display:block;
-	margin-left:475px;
-	margin-right:auto;
-	margin-top:-220px;
-	font-family:"Fredericka the Great",Arial,sans-serif;
-	color:white;
-	font-size:50px;
-	background-color:darkgrey;
-	border-width:8px;
-	border-color: #B8B6B0;
-	border-radius:15px;
-	padding:5px;
+  margin-left:500px;
+  margin-right:auto;
+  margin-top:-210px;
+  font-family:"Fredericka the Great",Arial,sans-serif;
+  color:black;
+  font-size:40px;
+  background-color:white;
+  border-width:4px;
+  border-color: #B8B6B0;
+  border-radius:15px;
+  padding:5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
